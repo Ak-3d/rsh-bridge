@@ -1,0 +1,13 @@
+[package]
+name = "rsh-bridge"
+version = "0.1.0"
+edition = "2024"
+description = "Let an agent run commands over an SSH connection you opened, without giving it a key"
+license = "MIT"
+repository = "https://github.com/Ak-3d/rsh-bridge"
+
+[dependencies]
+libc = "0.2.191"
+serde = { version = "1.0.229", features = ["derive"] }
+serde_json = "1.0.154"
+toml = "1.2.2"
